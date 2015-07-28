@@ -1,10 +1,10 @@
 <h2><a name="add-environment"></a>Add an Environment</h2>
 <div>
     <p>
-        Now the fun begins. We have our project initiated so now is it's time to add an environment. An environment is to where we want to deploy our code and what to do with it.
-        So an environment will store the configuration of to <u>where</u> to copy the application and <u>what to do</u> with it once deployed.
+        Now the fun begins. We have our project initiated so now it is time to add an environment. An environment is describes where we want to deploy our code and what to do with it.
+        So an environment will store the configuration of <u>where</u> to copy the application and <u>what to do</u> with it once deployed.
         <br />
-        Also we can configure our environment to work with releases, imagine it as a rudimentary <em>versioning</em> of our deployments.
+        Also we can configure our environment to work with releases. Imagine it as a rudimentary <em>versioning</em> of our deployments.
         <br />
         We will talk about <a href="#releases">releases</a> in a bit.
     </p>

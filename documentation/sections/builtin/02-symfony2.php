@@ -9,6 +9,6 @@
         <li><strong>symfony2/cache-warmup</strong> - Warms up the App Cache.</li>
     </ul>
 
-    In all cases the <em>env</em> option is available to specify the app environment, by default is <em>dev</em>.
+    In all cases the <em>env</em> option is available to specify the app environment. By default it is set to <em>dev</em>.
     </p>
 </div>

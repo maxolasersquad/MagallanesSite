@@ -90,6 +90,6 @@
     <br />
 
     <p>
-    As you can see, for the host <em>172.16.0.102</em> we have overwritten some configurations. For example, the user and directory for the deployment are different; also the release symlink and maximum stored releases are also different. Finally the on-deploy tasks is different; the tasks are completely overwritten, these are not added to the others, and only the <em>on-deploy</em> and <em>post-release</em> stages can be overwritten.
+    As you can see, for the host <em>172.16.0.102</em> we have overwritten some configurations. For example, the user and directory for the deployment are different; also, the release symlink and maximum stored releases are different. Finally, the on-deploy tasks are different; the tasks are completely overwritten, these are not added to the others, and only the <em>on-deploy</em> and <em>post-release</em> stages can be overwritten.
     </p>
 </div>

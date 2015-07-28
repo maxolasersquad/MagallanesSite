@@ -6,12 +6,12 @@
 
     <h3>Pre-Deploy</h3>
     <p>
-        These tasks are executed on your local copy of the code. For example you can update your SCM Repository, change branches, compile assets, etc. All the heavy lifting -that doesn't require the code being in the final destination- should be done here.
+        These tasks are executed on your local copy of the code. For example you can update your SCM Repository, change branches, compile assets, etc. All the heavy lifting, that doesn't require the code being in the final destination, should be done here.
     </p>
 
     <h3>On-Deploy</h3>
     <p>
-        These tasks are executed on every host, this is where the actual deployment is done. The Deployment Strategy is executed here (rsync, tar, etc). These tasks will be executed on the remote code, for every host, but before being released. Cache warmups can be executed here.
+        These tasks are executed on every host. This is where the actual deployment is done. The Deployment Strategy is executed (rsync, tar, etc), then the On-Deploy tasks will be executed on the remote code, for every host, but before being released. Cache warmups can be executed here.
     </p>
 
     <h3>Post-Release</h3>
@@ -21,7 +21,7 @@
 
     <h3>Post-Deploy</h3>
     <p>
-        Finally, after the deployment is done, these tasks get to be executed. You can cleanup your local copy, or purge some general cache (like varnish). These tasks are executed locally.
+        Finally, after the deployment is done, these tasks are executed. You can clean up your local copy, or purge some general cache (like varnish). These tasks are executed locally.
     </p>
 
     <br />

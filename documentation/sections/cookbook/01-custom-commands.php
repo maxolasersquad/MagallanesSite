@@ -1,11 +1,11 @@
 <h2><a name="cookbook-custom-commands"></a>Custom Commands</h2>
 <div>
     <p>
-    Sometime you may need to create a new Command, with Magallanes this is very easy to do, just as easy as a task.
+    Sometimes you may need to create a new command. With Magallanes this is very easy to do, just as easy as a task.
     </p>
 
     <p>
-    Every custom command must be stored in your <em>.mage/commands</em> directory (not created by default). The Class can have any valid name, and extend the <strong>Mage\Command\AbstractCommand</strong> class and be inside the <strong>Command</strong> namespace.
+    Every custom command must be stored in your <em>.mage/commands</em> directory (not created by default). The class can have any valid name, must extend the <strong>Mage\Command\AbstractCommand</strong> class, and must be in the <strong>Command</strong> namespace.
     <br />
     Then you have to implement one method:
     <ul>

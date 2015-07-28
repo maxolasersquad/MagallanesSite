@@ -5,14 +5,14 @@
     </p>
 
     <p>
-    Every custom task must be stored in your <em>.mage/tasks</em> directory. The Class can have any valid name, and extend the <strong>Mage\Task\AbstractTask</strong> class and be inside the <strong>Task</strong> namespace.
+    Every custom task must be stored in your <em>.mage/tasks</em> directory. The class can have any valid name, must extend the <strong>Mage\Task\AbstractTask</strong> class, and must be in the <strong>Task</strong> namespace.
     <br />
     Then you have to implement two methods:
     <ul>
         <li><em>getName</em> - this method returns the name of the task to be displayed while you run Magallanes.</li>
         <li><em>run</em> - this method does the actual work of the task.</li>
     </ul>
-    And that's it! Then you can add your task to your environments, just by they class name: <em>Permissions</em> would be <em>permissions</em>, and <em>DumpAssets</em> would be <em>dump-assets</em>.
+    And that's it! Then you can add your task to your environments, just by the class name: <em>Permissions</em> would be <em>permissions</em>, and <em>DumpAssets</em> would be <em>dump-assets</em>.
     </p>
 
     <p>

@@ -8,7 +8,7 @@
 
     <p>
         This is where the <strong>rollback</strong> command comes in action. Similar to a deploy, you have to indicate in which environment you want to do the rollback,
-        and then to specify to which release you want to rollback to. The environment is indicated like in any other command <em>to:environment</em>, and then in the <strong>release</strong> parameter you specify the RelaseId you want to change to.
+        and then specify to which release you want to rollback to. The environment is indicated like in any other command <em>to:environment</em>, and then in the <strong>release</strong> parameter you specify the RelaseId you want to change to.
     </p>
 
     <p class="bash">
@@ -27,7 +27,7 @@
     </p>
 
     <p>
-        So if you want to revert to the previous release before then use <strong>--release=-1</strong>, and if you want to go back to the last release deployed, use <strong>--release=0</strong>.
+        So if you want to revert to the previous release before, then use <strong>--release=-1</strong>. If you want to go back to the last release deployed, use <strong>--release=0</strong>.
     </p>
 
     <p class="bash">
@@ -49,7 +49,7 @@
     </p>
 
     <p>
-        One last thing. A shortcut. Instead of calling the <em>release rollback --release=XYZ</em> command, you can just use <em>rollback XYZ</em>, it will be just the same, it's just a shortcut.
+        And finally, a shortcut. Instead of calling the <em>release rollback --release=XYZ</em> command, you can just use <em>rollback XYZ</em>. It will be the same, it's just a shortcut.
     </p>
 
     <p class="bash">

@@ -13,7 +13,7 @@
         <ul>
             <li><strong>user</strong> - is the username used for the ssh connection.</li>
             <li><strong>from</strong> - is the location of the application, usually is the same directory where Magallanes is, but it could be any other path.</li>
-            <li><strong>to</strong> - is the remote directory where the application is gonna be copied. If you are working with releases this shouldn’t be the document root.</li>
+            <li><strong>to</strong> - is the remote directory where the application is gonna be copied. If you are working with releases this shouldn&rsquo;t be the document root.</li>
             <li><strong>excludes</strong> - is a list of files and directories to exclude in the rsync. Magallanes always excludes the <em>.mage</em> and <em>.git</em> directories.</li>
         </ul>
     </p>
@@ -27,14 +27,14 @@
         <h3>tasks</h3>
         In the <strong>tasks</strong> section we configure which tasks to run and when. You can look a complete list of built-in tasks <a href="#builtin-tasks">here</a>.
         <br />
-        Each task is executed in the configured order and in a specific part of the deployment, these moments are these:
+        Each task is executed in the configured order and in a specific part of the deployment, these moments are as follows:
         <ul>
             <li><strong>pre-deploy</strong> - before deployments begins. Useful for vendor installation and scm update tasks.</li>
             <li><strong>on-deploy</strong> - executed on each host after the code has been copied. Useful for cache warmup, symlinks creations, etc.</li>
             <li><strong>post-release</strong> - executed on each host after the release has been executed.</li>
-            <li><strong>post-deploy</strong> - after the deployment is completed. Useful for general tasks like cleanup a cache system.</li>
+            <li><strong>post-deploy</strong> - after the deployment is completed. Useful for general tasks like cleanup of the cache system.</li>
         </ul>
-        You can setup here your own tasks, bultin tasks <u>always</u> starts with a namespace of the task type it belongs (eg: scm, deployment, etc). On the other hand custom tasks don't have a namespace.
+        Here you can setup your own tasks. Bult in tasks <u>always</u> start with a namespace of the task type it belongs to (eg: scm, deployment, etc). On the other hand, custom tasks don't have a namespace.
     </p>
 
     <p>
@@ -44,7 +44,7 @@
 
     <p>
         <h3>locking</h3>
-        When you run a deployment an instance with Magallanes, all further deployments (for any other environment in that instance) are locked. This prevents multiple possible problems that you may experience, like different branches being deployed, a mix of vendors, etc. After the deployment is done, the lock is released.
+        When you run a deployment with Magallanes, all further deployments (for any other environment in that instance) are locked. This prevents multiple possible problems that you may experience, like different branches being deployed, a mix of vendors, etc. After the deployment is done, the lock is released.
     </p>
 
     <p>

@@ -12,7 +12,7 @@
     </p>
 
     <p>
-        Behind that command Magallanes performs an rsync between the local files and the remote servers. This means that only the needed files will be synced, but if you use releases (which is recommended) all the files will be synced again, so this may be a little inefficient, so Magallanes realizes that and uses another strategy, creates a tar.gz file and only copies that, which is faster than rsync.
+        Behind that command Magallanes performs an rsync between the local files and the remote servers. This means that only the needed files will be synced, but if you use releases (which is recommended) all the files will be synced again. This may be a little inefficient, so Magallanes realizes that and uses another strategy. It creates a tar.gz file and only copies that, which is faster than rsync.
     </p>
 
     <p>
@@ -69,7 +69,7 @@
         By default it is not configured, so Magallanes chooses <strong>targz</strong> over <strong>rsync</strong> when using releases. But you can play with the configuration and test which works better for you.
     </p>
     <p>
-        The <strong>disabled</strong> strategy doesn't copy any files at all, this can be useful if you want to performance other tasks without moving any files around.
+        The <strong>disabled</strong> strategy doesn't copy any files at all, this can be useful if you want to perform other tasks without moving any files around.
         <br />
         The <strong>git-rebase</strong> strategy assumes that in your hosts there is a working copy of a Git repository, and will perform a remote pull, conserving all files that might be untracked.
     </p>

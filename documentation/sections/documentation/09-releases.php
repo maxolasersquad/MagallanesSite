@@ -20,7 +20,7 @@
     </div>
 
     <p>
-        The configuration is pretty much straight forward, first of all there is a specific <strong>releases</strong> block:
+        The configuration is pretty much straight forward. First of all there is a specific <strong>releases</strong> block:
         <ul>
             <li><strong>enabled</strong> - must be set to true to enable the releases feature (default false).</li>
             <li><strong>max</strong> - indicates how many releases will be saved, this option is useful if you box has little space. Exceeding releases are deleted after the deployment is done, so take that into account when calculating the space needed.</li>
@@ -44,7 +44,7 @@
     <br />
 
     <p>
-        There is also an option for overriding a release, suppose you just made a deployment and forgot to add a very tiny line of code (a javascript call or css rule), doing the deployment again would be a waste of space. In this case the <strong>overrideRelease</strong> option comes handy. When used in the deployment, it will reuse the <strong>ReleaseId</strong> of the one which is set as <strong>current</strong>, therefore overwriting all the files. This option is very simple and powerful, so be very careful when using it.
+        There is also an option for overriding a release. Suppose you just made a deployment and forgot to add a very tiny line of code (a javascript call or css rule). Doing the deployment again would be a waste of space. In this case the <strong>overrideRelease</strong> option comes handy. When used in the deployment, it will reuse the <strong>ReleaseId</strong> of the one which is set as <strong>current</strong>, therefore overwriting all the files. This option is very simple and powerful, so be very careful when using it.
     </p>
 
     <p class="bash">
@@ -52,6 +52,6 @@
     </p>
 
     <p>
-        Also it is possible to rollback a release to the previous release or to a specific release with the <strong>rollback</strong> command. More of this command in it's own <a href="#rollback">section</a>.
+        It is also possible to rollback a release to the previous release or to a specific release with the <strong>rollback</strong> command. More of this command is in its own <a href="#rollback">section</a>.
     </p>
 </div>
